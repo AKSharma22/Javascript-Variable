@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable</title>
+</head>
+<body>
+    <!-- heading -->
+    <h1>JavaScript const</h1>
+    <!-- paragraph tag with unique id -->
+    <p id="first"></p>
+    <p id="second"></p>
+    <script>
+        //create an Array;
+      const mobile =["Iphone","Redmi","Oppo"];
+
+      //display the Array
+      document.getElementById("first").innerHTML =mobile;
+
+      //change an element
+      mobile[1] ="Oneplus";
+
+      //Add an element 
+      mobile.push("Motto");
+      //Display the Array
+      document.getElementById("second").innerHTML =mobile;
+    </script>
+</body>
+</html>
